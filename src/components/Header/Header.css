@@ -1,0 +1,29 @@
+.top {
+  background-color: #49a9ee;
+  display: flex;
+  /* justify-content: right; */
+}
+
+.top ul {
+  margin: 0 auto;
+  display: flex;
+}
+.top ul > a {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 5px 10px;
+}
+.top ul > a > div {
+  text-align: center;
+}
+.top ul > a > div > span {
+  font-size: 18px;
+}
+.top ul > .active {
+  background-color: #02b3f3;
+  color: #fff;
+  border-radius: 5px;
+  /* opacity: 0.5; */
+}

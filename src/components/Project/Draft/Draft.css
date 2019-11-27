@@ -1,0 +1,60 @@
+.draft {
+  width: 75vw;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center; */
+}
+.draft h2 {
+  text-align: center;
+}
+.biao {
+  display: flex;
+  justify-content: center;
+}
+table {
+  border-spacing: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+tr {
+  border: 1px solid #000;
+}
+td {
+  border: 1px solid #ccc;
+  line-height: 30px;
+  padding: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+td input {
+  border: 0;
+  outline: none;
+}
+.textall {
+  resize: none;
+  width: 900px;
+  outline: none;
+  margin-top: 10px;
+}
+.title {
+  padding-top: 60px;
+  padding-left: 5px;
+}
+.title > .title-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.title > .title-bottom > div {
+  display: flex;
+}
+.title > .title-bottom > div > div {
+  width: 100px;
+  border-top: 1px solid #000;
+  margin: 23px 15px 0;
+}
+.title > .title-bottom > .time > span {
+  margin-left: 40px;
+  display: block;
+}

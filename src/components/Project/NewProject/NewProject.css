@@ -1,0 +1,66 @@
+.newproject {
+  width: 100%;
+}
+.newproject-top {
+  width: 1690px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: block;
+}
+.newproject-main {
+  padding: 10px 22px 0 30px;
+}
+.newproject-main .newproject-main-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0 10px;
+}
+.newproject-main .newproject-main-top > span {
+  font-size: 26px;
+  color: #676a6c;
+}
+.newproject-main .newproject-main-top > div > button {
+  margin-top: 5px;
+  margin-left: 16px;
+  padding: 3px 5px;
+  background-color: #00aa91;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.newproject-main-section {
+  width: 100%;
+  padding-right: 7px;
+}
+.newproject-main-section table {
+  margin-top: 5px;
+}
+.table1 {
+  width: 1630px;
+}
+.table1 td {
+  width: 130px;
+}
+.table1 td > input,
+.table3 td > input {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2px;
+}
+
+tbody {
+  width: 100%;
+}
+.newproject-main-section .title {
+  max-width: 100%;
+  background-color: #f5f5f6;
+  text-align: center;
+}
+.table2 input {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2px;
+}
+.table3 .title1 {
+  background-color: #f5f5f6;
+  text-align: center;
+}

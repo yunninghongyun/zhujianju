@@ -1,0 +1,57 @@
+.project {
+  display: flex;
+}
+.project-header {
+  display: flex;
+  flex-direction: column;
+}
+.project-header .project-nav {
+  display: flex;
+  flex-direction: column;
+}
+.project-header .project-top {
+  width: 230px;
+  background-color: #f2f2f2;
+  padding: 0 20px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.project-header .project-top > span {
+  line-height: 40px;
+  font-size: 14px;
+}
+.project-header .biaoti {
+  width: 230px;
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 0 20px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.project-header .biaoti > .xiangmu {
+  font-size: 20px;
+  line-height: 40px;
+  margin: 0 45px;
+}
+.project-header .biaoti > .icon-xia {
+  line-height: 45px;
+}
+.project-nav > a {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  background-color: #f2f2f2;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #585858;
+}
+.project-nav > a > .icon-xia {
+  /* display: none; */
+  color: #276daf;
+}
+.project-nav .active {
+  background-color: #fff;
+  border-right: 2px solid #276daf;
+  /* display: block;  */
+}

@@ -1,0 +1,102 @@
+.message {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 40px;
+}
+.message-top > h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.message-top > div > span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 280px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.message-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+.message-inner > .int {
+  display: flex;
+  justify-content: space-around;
+}
+.message-inner > div > div {
+  margin-right: 35%;
+}
+.message-inner > div > div > input {
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: none;
+  margin-right: 20px;
+}
+.message-inner > .text > p {
+  margin-top: 15px;
+  width: 50%;
+  text-indent: 10%;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: bold;
+  color: #000;
+  margin: 0 auto;
+}
+.message-inner > .text {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 28%; */
+}
+.message-inner > .text > p > input {
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+.message-inner > .text > div {
+  width: 50%;
+  margin: 0 auto;
+}
+.message-inner > .text > div > span {
+  font-weight: bold;
+  color: #000;
+}
+.message-inner > .text > div > input {
+  /* margin: 0 auto; */
+  width: 90%;
+  margin: 20px 0;
+}
+.text1 {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.text1 > p {
+  /* width: 60%; */
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+.text1 .text4 {
+  margin-top: 20px;
+  margin-right: 100px;
+  text-align: right;
+}
+.text1 .text4 > span {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.text5 {
+  width: 50%;
+  margin: 20px auto 0;
+}
+.text5 > span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  margin-right: 300px;
+}
